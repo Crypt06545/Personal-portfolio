@@ -1,0 +1,73 @@
+{
+    "nav": {
+        "about": "Acerca de mi",
+        "skills": "Habilidades",
+        "portfolio": "Portafolio",
+        "education": "Educación",
+        "contact": "Contacto",
+        "language": "Change to English"
+    },
+    "hero": {
+        "description": "Desarrollador Full-Stack",
+        "learn-more": "Conocer más"
+    },
+    "about-me": {
+        "title": "Acerca de mi",
+        "description-a": "Hola!, soy Mehadi Hasan, desarrollador especializado en javascript, cuento con mas de",
+        "description-b": "años de experiencia en la construcción de aplicaciones web modernas y apps con React Native. Actualmente tengo",
+        "description-c": "años de edad, sigo aprendiendo y mejorando cada día ya que la tecnología nunca para.",
+        "description-d": "Me especializo mas que nada en el stack MERN (Mongodb, Express, React, Node), pero también uso python y MySQL en mis proyectos.",
+        "cv": "Descargar CV"
+    },
+    "skills": {
+        "title": "Habilidades",
+        "languages": "Lenguajes",
+        "frameworksAndLibraries": "Frameworks y librerías"
+    },
+    "portfolio": {
+        "title": "Portafolio",
+        "descriptions": {
+            "Drone": "Un sitio web simple de tienda de drones.",
+            "Doctor Strange Filter": "Este proyecto está construido en Python con MediaPipe y cv2.",
+            "BMI Calculator": "Este proyecto está construido en Python mediante el uso de Tkinter, que puede verificar su IMC",
+            "Travel Memories": "Este proyecto está construido usando MERN Stack donde puedes compartir tus buenos recuerdos",
+            "WordBeater Game": "Este proyecto está construido using html,css & js",
+            "Weather App":"Esta es una web meteorológica donde puedes saber el tiempo que hace en cualquier parte del mundo."
+        },
+        "madeWith": "Hecho con",
+        "github-repos-link": "Ver más proyectos",
+        "buttons": {
+            "code": "Código",
+            "live": "visitar"
+        }
+    },
+    "education": {
+        "title": "Educación",
+        "description-a": "La mayoría de mis conocimientos los he adquirido de manera online, soy un autodidacta que se entrena con cursos, tutoriales, leyendo código y sobre todo mucha práctica.",
+        "description-b": "Las plataformas que más uso para formarme son Sololearn y Freecode Camp.",
+        "subtitle": "Aqui estan algunos de mis certificados en dichas plataformas:",
+        "certificates": {
+            "frontend": "Núcleo de Python",
+            "backend": "Desarrollador de scripts Java",
+            "school": "Estructura de datos",
+            "testing": "Python básico"
+        }
+    },
+    "contact": {
+        "title": "Contáctame",
+        "form": {
+            "name": "Nombre",
+            "name-placeholder": "Tu nombre o nombre de la empresa",
+            "email": "Correo",
+            "email-placeholder": "Correo electrónico",
+            "message": "Mensaje",
+            "message-placeholder": "Hola Mehadi, te quiero contratar para (...) \nOye Mehadi quisiera preguntarte (...)",
+            "send": "Enviar"
+        },
+        "alerts": {
+            "warning": "Por favor introduzca todos los datos",
+            "error": "Ha ocurrido un error, ingrese bien los datos e intente de nuevo",
+            "success": "Mensaje enviado!"
+        }
+    }
+}
