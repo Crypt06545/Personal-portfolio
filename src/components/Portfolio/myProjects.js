@@ -14,6 +14,9 @@ const technologies = {
     wordpress: { name: 'WordPress', logo: lngLogo['wordpress'], logoSize: 25 },
     htmlAndCss: { name: 'HTML-CSS', logo: lngLogo['html_and_css'], logoSize: 25 },
     js: { name: 'VanillaJS (ES6, ES7)', logo: lngLogo['javascript'], logoSize: 25 },
+    tailwind: { name: 'tailwind-css', logo: lngLogo['tailwind'], logoSize: 25 },
+    redux: { name: 'redux', logo: lngLogo['redux'], logoSize: 25 },
+    typescriptlang: { name: 'typescriptlang', logo: lngLogo['typescriptlang'], logoSize: 25 }
 }
 
 const {
@@ -28,7 +31,10 @@ const {
     // wordpress,
     htmlAndCss,
     python,
-    mongo
+    mongo,
+    tailwind,
+    redux,
+    typescriptlang
     // socket
 } = technologies;
 
@@ -46,17 +52,24 @@ export const projects = [
         technologies: [python],
         code: 'https://github.com/Crypt06545/Doctor-Strange'
     },
-    {
-        name: 'BMI Calculator',
-        photo: projectsImgs['Bmi'],
-        technologies: [python],
-        code: 'https://github.com/Crypt06545/BMI-Calculate'
-    },
+    // {
+    //     name: 'BMI Calculator',
+    //     photo: projectsImgs['Bmi'],
+    //     technologies: [python],
+    //     code: 'https://github.com/Crypt06545/BMI-Calculate'
+    // },
     {
         name: 'Travel Memories',
         photo: projectsImgs['Travel'],
         technologies: [react, mongo, express, node],
         code: 'https://github.com/Crypt06545/Travel_memories.git'
+    },
+    {
+        name: 'YouTube Clone',
+        photo: projectsImgs['youtube'],
+        technologies: [react, tailwind, redux ,typescriptlang],
+        code: 'https://github.com/Crypt06545/youtube-lite.git',
+        url: 'https://you-tubelite.netlify.app/'
     },
     {
         name: 'WordBeater Game',

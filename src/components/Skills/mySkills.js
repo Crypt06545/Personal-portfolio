@@ -89,5 +89,17 @@ export const mySkills = {
             percentage: 70,
             imageWidth: 26
         },
+        {
+            name: 'TailwindCSS',
+            image: lngLogo['tailwind'],
+            percentage: 72,
+            imageWidth: 26
+        },
+        {
+            name: 'Typescript',
+            image: lngLogo['typescriptlang'],
+            percentage: 72,
+            imageWidth: 26
+        },
     ],
 }
