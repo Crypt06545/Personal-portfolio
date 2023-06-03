@@ -39,10 +39,10 @@ export const mySkills = {
             imageWidth: 25
         },
         {
-            name: 'PHP',
-            image: lngLogo['php'],
-            percentage: 50,
-            imageWidth: 36
+            name: 'Typescript',
+            image: lngLogo['typescriptlang'],
+            percentage: 72,
+            imageWidth: 26
         },
         {
             name: 'MySQL',
@@ -92,12 +92,6 @@ export const mySkills = {
         {
             name: 'TailwindCSS',
             image: lngLogo['tailwind'],
-            percentage: 72,
-            imageWidth: 26
-        },
-        {
-            name: 'Typescript',
-            image: lngLogo['typescriptlang'],
             percentage: 72,
             imageWidth: 26
         },
