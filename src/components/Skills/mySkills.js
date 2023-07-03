@@ -95,5 +95,11 @@ export const mySkills = {
             percentage: 72,
             imageWidth: 26
         },
+        // {
+        //     name: 'Next.js 13',
+        //     image: lngLogo['nextjs'],
+        //     percentage: 72,
+        //     imageWidth: 26  
+        // },
     ],
 }

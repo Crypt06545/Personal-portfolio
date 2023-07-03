@@ -5,7 +5,7 @@
         "portfolio": "Portfolio",
         "education": "Education",
         "contact": "Contact",
-        "language": "Cambiar a Español"
+        "language": "Switch to Spanish"
     },
     "hero": {
         "description": "Full-Stack Developer",
@@ -28,7 +28,7 @@
         "title": "Portfolio",
         "descriptions": {
             "Drone": "A Simple Drone Shop Website",
-            "Doctor Strange Filter": "This project is built in Python with MediaPipe and cv2",
+            "Airbnb-Build": "This project Build with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth 2023",
             "YouTube Clone": "This project is built with React,Redux,Tailwind-Css & Typescript",
             "Travel Memories": "This project is built using MERN Stack where You can share Your good memories",
             "WordBeater Game": "This project is built using html,css & js",

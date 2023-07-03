@@ -13,10 +13,10 @@ import './about.css';
 const About = () => {
     const { t } = useTranslation('global');
 
-    return ( 
+    return (
         <div id="about">
-           <SectionTitle title={t("about-me.title")} />
-           <div className="about-description-container">
+            <SectionTitle title={t("about-me.title")} />
+            <div className="about-description-container">
                 <p className="first-letter">
                     {
                         t("about-me.description-a") + ' '
@@ -32,9 +32,9 @@ const About = () => {
                     <div>{t("about-me.cv")}</div>
                     <img src={DownloadIcon} alt="Mehadi's CV curriculum" />
                 </a>
-           </div>
+            </div>
         </div>
-     );
+    );
 }
- 
+
 export default About;

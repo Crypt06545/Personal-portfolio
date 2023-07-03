@@ -11,24 +11,26 @@ import mongoDB from '../img/mongodb.svg';
 import mysql from '../img/mysql.svg';
 import php from '../img/php.svg';
 import express from '../img/expressjs.svg';
-import nextjs from '../img/next.png';
 import firebase from '../img/firebase.svg';
 import socketio from '../img/socket-io.svg';
 import socketioWhite from '../img/socket-io-white.svg';
 import tailwind from '../img/tailwindcss-icon.svg';
 import typescriptlang from '../img/typescriptlang-icon.svg';
+import nextjs from '../img/nextjs-13.svg';
+import nextJsLogo from '../img/next-js.svg';
 
 
 
 // projects images
 import nestedSelects from '../img/projects/book.png';
 import Drone from '../img/projects/Drone.png';
-import Dr from '../img/projects/Dr.png';
+// import Dr from '../img/projects/Dr.png';
 // import Bmi from '../img/projects/Bmi.png';
 import Travel from '../img/projects/Travel.png';
 import Typing from '../img/projects/Typing.png';
 import Weather from '../img/projects/Weather.png'
 import youtube from '../img/projects/youtube.png'
+import Airbnb from '../img/projects/Airbnb.png'
 
 const lngLogo = {
     react,
@@ -48,7 +50,8 @@ const lngLogo = {
     redux,
     nextjs,
     tailwind,
-    typescriptlang
+    typescriptlang,
+    nextJsLogo,
 
 
 }
@@ -56,11 +59,12 @@ const lngLogo = {
 const projectsImgs = {
     nestedSelects,
     Drone,
-    Dr,
+    // Dr,
     Travel,
     Typing,
     Weather,
-    youtube
+    youtube,
+    Airbnb
 }
 
 export {

@@ -1,10 +1,10 @@
 import swal from 'sweetalert2';
 
 const confirmationMessage = ({
-    title = 'Quiere eliminar?',
-    text = 'una vez hecho no puede revertir esta acción',
-    confirmText = 'Si, eliminar',
-    cancelText = 'No, cancelar'
+    title = 'Do you want to delete?',
+    text = 'once done, you cannot undo this action.',
+    confirmText = 'yes, delete',
+    cancelText = 'No, undo.'
 }) => {
     return swal.fire({
         title,
@@ -19,7 +19,7 @@ const confirmationMessage = ({
 }
 
 // success and error
-const showSuccessMessage = ({title = 'Procedimiento exitoso', text = '', html = ''}) => {
+const showSuccessMessage = ({ title = 'Successful procedure', text = '', html = '' }) => {
     return swal.fire({
         title,
         text,
@@ -28,7 +28,7 @@ const showSuccessMessage = ({title = 'Procedimiento exitoso', text = '', html = 
     })
 }
 
-const showErrorMessage = ({title = 'Ocurrió un error', text = '', html = ''}) => {
+const showErrorMessage = ({ title = 'An error occurred', text = '', html = '' }) => {
     return swal.fire({
         title,
         text,
@@ -37,7 +37,7 @@ const showErrorMessage = ({title = 'Ocurrió un error', text = '', html = ''}) =
     })
 }
 
-const showWarningMessage = ({title = 'Alto allí', text = '', html = ''}) => {
+const showWarningMessage = ({ title = 'Stop right there', text = '', html = '' }) => {
     return swal.fire({
         title,
         text,
@@ -52,7 +52,7 @@ const showWarningMessage = ({title = 'Alto allí', text = '', html = ''}) => {
  * @param title
  * @param text
  */
-const showLoading = ({title = '', text = ''}) => {
+const showLoading = ({ title = '', text = '' }) => {
     return swal.fire({
         title,
         text,

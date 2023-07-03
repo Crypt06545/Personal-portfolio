@@ -8,7 +8,6 @@ const technologies = {
     python: { name: 'python', logo: lngLogo['python'], logoSize: 25 },
     express: { name: 'Express.js', logo: lngLogo['express'], logoSize: 50 },
     socket: { name: 'Socket.io', logo: lngLogo['socketio'], logoSize: 25 },
-    nextjs: { name: 'Next.js', logo: lngLogo['nextjs'], logoSize: 25 },
     mysql: { name: 'MySQL', logo: lngLogo['mysql'], logoSize: 25 },
     firebase: { name: 'firebase', logo: lngLogo['firebase'], logoSize: 25 },
     wordpress: { name: 'WordPress', logo: lngLogo['wordpress'], logoSize: 25 },
@@ -16,7 +15,9 @@ const technologies = {
     js: { name: 'VanillaJS (ES6, ES7)', logo: lngLogo['javascript'], logoSize: 25 },
     tailwind: { name: 'tailwind-css', logo: lngLogo['tailwind'], logoSize: 25 },
     redux: { name: 'redux', logo: lngLogo['redux'], logoSize: 25 },
-    typescriptlang: { name: 'typescriptlang', logo: lngLogo['typescriptlang'], logoSize: 25 }
+    typescriptlang: { name: 'typescriptlang', logo: lngLogo['typescriptlang'], logoSize: 25 },
+    nextjs: { name: 'nextjs', logo: lngLogo['nextjs'], logoSize: 25 },
+    nextJsLogo: { name: 'nextJsLogo', logo: lngLogo['nextJsLogo'], logoSize: 25 }
 }
 
 const {
@@ -34,7 +35,8 @@ const {
     mongo,
     tailwind,
     redux,
-    typescriptlang
+    typescriptlang,
+    nextJsLogo,
     // socket
 } = technologies;
 
@@ -46,11 +48,18 @@ export const projects = [
         url: 'https://cypyt0-weather.netlify.app',
         code: 'https://github.com/Crypt06545/Weather-app-2.0.git'
     },
+    // {
+    //     name: 'Doctor Strange Filter',
+    //     photo: projectsImgs['Dr'],
+    //     technologies: [python],
+    //     code: 'https://github.com/Crypt06545/Doctor-Strange'
+    // },
     {
-        name: 'Doctor Strange Filter',
-        photo: projectsImgs['Dr'],
-        technologies: [python],
-        code: 'https://github.com/Crypt06545/Doctor-Strange'
+        name: 'Airbnb',
+        photo: projectsImgs['Airbnb'],
+        technologies: [react, tailwind, mongo, typescriptlang],
+        code: 'https://github.com/Crypt06545/Airbnb.git',
+        url: 'https://sairbnb.vercel.app',
     },
     // {
     //     name: 'BMI Calculator',
@@ -67,7 +76,7 @@ export const projects = [
     {
         name: 'YouTube Clone',
         photo: projectsImgs['youtube'],
-        technologies: [react, tailwind, redux ,typescriptlang],
+        technologies: [react, tailwind, redux, typescriptlang],
         code: 'https://github.com/Crypt06545/youtube-lite.git',
         url: 'https://you-tubelite.netlify.app/'
     },

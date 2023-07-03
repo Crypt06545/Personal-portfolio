@@ -28,11 +28,11 @@
         "title": "Portafolio",
         "descriptions": {
             "Drone": "Un sitio web simple de tienda de drones.",
-            "Doctor Strange Filter": "Este proyecto está construido en Python con MediaPipe y cv2.",
+            "Airbnb-Build": "Este proyecto Build with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth 2023",
             "YouTube Clone": "Este proyecto está construido con React, Redux, Tailwind-Css y Typescript",
             "Travel Memories": "Este proyecto está construido usando MERN Stack donde puedes compartir tus buenos recuerdos",
             "WordBeater Game": "Este proyecto está construido using html,css & js",
-            "Weather App":"Esta es una web meteorológica donde puedes saber el tiempo que hace en cualquier parte del mundo."
+            "Weather App": "Esta es una web meteorológica donde puedes saber el tiempo que hace en cualquier parte del mundo."
         },
         "madeWith": "Hecho con",
         "github-repos-link": "Ver más proyectos",
