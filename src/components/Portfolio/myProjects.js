@@ -31,12 +31,12 @@ const {
     node,
     // wordpress,
     htmlAndCss,
-    python,
+    // python,
     mongo,
     tailwind,
     redux,
     typescriptlang,
-    nextJsLogo,
+    // nextJsLogo,
     // socket
 } = technologies;
 
