@@ -44,12 +44,12 @@ export const mySkills = {
             percentage: 72,
             imageWidth: 26
         },
-        {
-            name: 'MySQL',
-            image: lngLogo['mysql'],
-            percentage: 50,
-            imageWidth: 27
-        },
+        // {
+        //     name: 'MySQL',
+        //     image: lngLogo['mysql'],
+        //     percentage: 50,
+        //     imageWidth: 27
+        // },
     ],
 
     frameworksAndLibraries: [
@@ -71,24 +71,24 @@ export const mySkills = {
             percentage: 80,
             imageWidth: 52
         },
-        {
-            name: 'React Native',
-            image: lngLogo['react_native'],
-            percentage: 80,
-            imageWidth: 25
-        },
+        // {
+        //     name: 'React Native',
+        //     image: lngLogo['react_native'],
+        //     percentage: 80,
+        //     imageWidth: 25
+        // },
         {
             name: 'Firebase',
             image: lngLogo['firebase'],
             percentage: 70,
             imageWidth: 26
         },
-        {
-            name: 'Socket.io',
-            image: lngLogo['socketioWhite'],
-            percentage: 70,
-            imageWidth: 26
-        },
+        // {
+        //     name: 'Socket.io',
+        //     image: lngLogo['socketioWhite'],
+        //     percentage: 70,
+        //     imageWidth: 26
+        // },
         {
             name: 'TailwindCSS',
             image: lngLogo['tailwind'],
