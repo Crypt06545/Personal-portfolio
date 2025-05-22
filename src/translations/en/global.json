@@ -1,73 +1,73 @@
 {
-    "nav": {
-        "about": "About me",
-        "skills": "Skills",
-        "portfolio": "Portfolio",
-        "education": "Education",
-        "contact": "Contact",
-        "language": "Switch to Spanish"
+  "nav": {
+    "about": "About me",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "education": "Education",
+    "contact": "Contact",
+    "language": "Switch to Spanish"
+  },
+  "hero": {
+    "description": "Full-Stack Developer",
+    "learn-more": "Learn more"
+  },
+  "about-me": {
+    "title": "About me",
+    "description-a": "Hi!, I'm Mehadi Hasan a developer specialized in JavaScript, I have more than",
+    "description-b": "years of experience in building modern web applications and apps with React Native. I am currently",
+    "description-c": "years old, I keep learning and improving every day because technology never stops.",
+    "description-d": "I specialize more than anything in the MERN stack (Mongodb, Express, React, Node).",
+    "cv": "Download CV"
+  },
+  "skills": {
+    "title": "My skills",
+    "languages": "Languages",
+    "frameworksAndLibraries": "Frameworks and libraries"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "descriptions": {
+      "Drone": "A Simple Drone Shop Website",
+      "Airbnb": "This project Build with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth",
+      "YouTube Clone": "This project is built with React,Redux,Tailwind-Css & Typescript",
+      "Travel Memories": "This project is built using MERN Stack where You can share Your good memories",
+      "WordBeater Game": "This project is built using html,css & js",
+      "Weather App": "This is a weather web where you can know the weather anywhere in the world."
     },
-    "hero": {
-        "description": "Full-Stack Developer",
-        "learn-more": "Learn more"
-    },
-    "about-me": {
-        "title": "About me",
-        "description-a": "Hi!, I'm Mehadi Hasan a developer specialized in JavaScript, I have more than",
-        "description-b": "years of experience in building modern web applications and apps with React Native. I am currently",
-        "description-c": "years old, I keep learning and improving every day because technology never stops.",
-        "description-d": "I specialize more than anything in the MERN stack (Mongodb, Express, React, Node), but I also use python and MySQL in my projects.",
-        "cv": "Download CV"
-    },
-    "skills": {
-        "title": "My skills",
-        "languages": "Languages",
-        "frameworksAndLibraries": "Frameworks and libraries"
-    },
-    "portfolio": {
-        "title": "Portfolio",
-        "descriptions": {
-            "Drone": "A Simple Drone Shop Website",
-            "Airbnb": "This project Build with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth",
-            "YouTube Clone": "This project is built with React,Redux,Tailwind-Css & Typescript",
-            "Travel Memories": "This project is built using MERN Stack where You can share Your good memories",
-            "WordBeater Game": "This project is built using html,css & js",
-            "Weather App": "This is a weather web where you can know the weather anywhere in the world."
-        },
-        "madeWith": "Made with",
-        "github-repos-link": "See more projects",
-        "buttons": {
-            "code": "Code",
-            "live": "Live"
-        }
-    },
-    "education": {
-        "title": "Education",
-        "description-a": "Most of my knowledge I have acquired online, I am a self-taught person who trains with courses, tutorials, reading code and above all a lot of practice.",
-        "description-b": "The platforms that I use the most to train are Sololearn and Free code Camp.",
-        "subtitle": "These are some of my certificates on those platforms:",
-        "certificates": {
-            "frontend": "Python Core",
-            "backend": "Java script Developer",
-            "school": "Data Structure",
-            "testing": "Python Basic"
-        }
-    },
-    "contact": {
-        "title": "Contact me",
-        "form": {
-            "name": "Name",
-            "name-placeholder": "Your name or company name",
-            "email": "Email",
-            "email-placeholder": "Your email or company email",
-            "message": "Message",
-            "message-placeholder": "Hi Mehadi, I want to hire you for (...) \nHey Mehadi, I would like to ask you (...)",
-            "send": "Send"
-        },
-        "alerts": {
-            "warning": "Please enter all data",
-            "error": "An error has occurred, please enter the data correctly and try again",
-            "success": "Message sent!"
-        }
+    "madeWith": "Made with",
+    "github-repos-link": "See more projects",
+    "buttons": {
+      "code": "Code",
+      "live": "Live"
     }
+  },
+  "education": {
+    "title": "Education",
+    "description-a": "Most of my knowledge I have acquired online, I am a self-taught person who trains with courses, tutorials, reading code and above all a lot of practice.",
+    "description-b": "The platforms that I use the most to train are Sololearn and Free code Camp.",
+    "subtitle": "These are some of my certificates on those platforms:",
+    "certificates": {
+      "frontend": "Python Core",
+      "backend": "Java script Developer",
+      "school": "Data Structure",
+      "testing": "Python Basic"
+    }
+  },
+  "contact": {
+    "title": "Contact me",
+    "form": {
+      "name": "Name",
+      "name-placeholder": "Your name or company name",
+      "email": "Email",
+      "email-placeholder": "Your email or company email",
+      "message": "Message",
+      "message-placeholder": "Hi Mehadi, I want to hire you for (...) \nHey Mehadi, I would like to ask you (...)",
+      "send": "Send"
+    },
+    "alerts": {
+      "warning": "Please enter all data",
+      "error": "An error has occurred, please enter the data correctly and try again",
+      "success": "Message sent!"
+    }
+  }
 }

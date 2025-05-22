@@ -6,10 +6,13 @@ import 'particles.js/particles';
 // images
 import githubImg from '../../img/github.png';
 import instagramImg from '../../img/instagram.svg';
-import twitterImg from '../../img/twitter.svg';
+import twitterImg from '../../img/twitter3.svg';
 import linkedinImg from '../../img/linkedin.svg';
 // css
 import './hero.css';
+// --openssl-legacy-provide start
+// "start": "cross-env NODE_OPTIONS=--openssl-legacy-provider react-scripts start"
+// "start": "react-scripts start",
 
 const particlesJS = window.particlesJS;
 

@@ -20,9 +20,9 @@ const About = () => {
                 <p className="first-letter">
                     {
                         t("about-me.description-a") + ' '
-                        + getAge('2020/07/20') + ' '
+                        + getAge('2024/05/20') + ' '
                         + t("about-me.description-b") + ' '
-                        + getAge('2003/02/21') + ' '
+                        + getAge('2004/02/21') + ' '
                         + t("about-me.description-c")
                     }
                 </p>
