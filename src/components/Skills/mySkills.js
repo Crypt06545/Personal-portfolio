@@ -38,12 +38,13 @@ export const mySkills = {
             percentage: 70,
             imageWidth: 25
         },
-        {
-            name: 'Typescript',
-            image: lngLogo['typescriptlang'],
-            percentage: 72,
-            imageWidth: 26
-        },
+        // {
+        //     name: 'Typescript',
+        //     image: lngLogo['typescriptlang'],
+        //     percentage: 72,
+        //     imageWidth: 26
+        // },
+        
         // {
         //     name: 'MySQL',
         //     image: lngLogo['mysql'],
@@ -59,11 +60,17 @@ export const mySkills = {
             percentage: 90,
             imageWidth: 25
         },
+        // {
+        //     name: 'Redux',
+        //     image: lngLogo['redux'],
+        //     percentage: 80,
+        //     imageWidth: 28
+        // },
         {
-            name: 'Redux',
-            image: lngLogo['redux'],
-            percentage: 80,
-            imageWidth: 28
+            name: 'Zustand',
+            image: lngLogo['zustand'],
+            percentage: 60,
+            imageWidth: 32
         },
         {
             name: 'Express',
@@ -92,6 +99,12 @@ export const mySkills = {
         {
             name: 'TailwindCSS',
             image: lngLogo['tailwind'],
+            percentage: 72,
+            imageWidth: 26
+        },
+        {
+            name: 'GSAP',
+            image: lngLogo['gsap'],
             percentage: 72,
             imageWidth: 26
         },
