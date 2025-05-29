@@ -30,7 +30,7 @@
       "Drone": "A Simple Drone Shop Website",
       "Egypt": "This project Build with React, Tailwind, GSAP, Node, Firebase ,MongoDB",
       "YouTube Clone": "This project is built with React,Redux,Tailwind-Css & Typescript",
-      "Travel Memories": "This project is built using MERN Stack where You can share Your good memories",
+      "RouteX": "This project is built using MERN Stack where You can get visa services",
       "WordBeater Game": "This project is built using html,css & js",
       "Weather App": "This is a weather web where you can know the weather anywhere in the world."
     },
@@ -46,6 +46,7 @@
     "description-a": "Most of my knowledge I have acquired online, I am a self-taught person who trains with courses, tutorials, reading code and above all a lot of practice.",
     "description-b": "The platforms that I use the most to train are Sololearn and Free code Camp.",
     "subtitle": "These are some of my certificates on those platforms:",
+    "current": "Currently studying at Govt Azizul Haque College, Bogura",
     "certificates": {
       "frontend": "Python Core",
       "backend": "Java script Developer",
