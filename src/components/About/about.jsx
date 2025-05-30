@@ -30,7 +30,7 @@ const About = () => {
 
                 <a className="download-cv" href="/CV.pdf" download>
                     <div>{t("about-me.cv")}</div>
-                    <img src={DownloadIcon} alt="Mehadi's CV curriculum" />
+                    <img src={DownloadIcon} alt="Mehadi's Resume curriculum" />
                 </a>
             </div>
         </div>

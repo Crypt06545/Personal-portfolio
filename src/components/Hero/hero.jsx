@@ -46,13 +46,13 @@ const Hero = () => {
                             <img src={instagramImg} alt="Try Again"/>
                         </a>
                     </div>
-                    <div className="social-item">
+                    {/* <div className="social-item">
                         <a href="/" target="_blank" rel="noopener noreferrer">
                             <img src={twitterImg} alt="Try Again"/>
                         </a>
-                    </div>
+                    </div> */}
                     <div className="social-item">
-                        <a href="https://www.linkedin.com/in/mehadihasan00/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/mehadihasan0/" target="_blank" rel="noopener noreferrer">
                             <img src={linkedinImg} alt="Try Again"/>
                         </a>
                     </div>
