@@ -42,16 +42,27 @@
     }
   },
   "education": {
-    "title": "Education",
-    "description-a": "Most of my knowledge I have acquired online, I am a self-taught person who trains with courses, tutorials, reading code and above all a lot of practice.",
-    "description-b": "The platforms that I use the most to train are Sololearn and Free code Camp.",
-    "subtitle": "These are some of my certificates on those platforms:",
-    "current": "Currently studying at Govt Azizul Haque College, Bogura",
-    "certificates": {
-      "frontend": "Python Core",
-      "backend": "Java script Developer",
-      "school": "Data Structure",
-      "testing": "Python Basic"
+    "title": "My Education",
+    "description-a": "My academic journey that shaped my knowledge",
+    "description-b": "The institutions that helped me grow",
+    "current": "Currently continuing my education journey",
+    "college": {
+      "name": "National University",
+      "degree": "Bachelor of Arts (Honours)",
+      "year": "2023 - Present",
+      "description": "Currently pursuing undergraduate degree"
+    },
+    "hss": {
+      "name": "Bogura Govt. College",
+      "degree": "Higher Secondary Certificate (HSC)",
+      "year": "2021 - 2022",
+      "description": "Completed with excellent results"
+    },
+    "school": {
+      "name": "BIAM Model School & College, Bogura",
+      "degree": "Secondary School Certificate (SSC)",
+      "year": "2019 - 2020",
+      "description": "Completed with outstanding performance"
     }
   },
   "contact": {

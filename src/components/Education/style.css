@@ -66,6 +66,138 @@
     font-family: var(--sans-pro);
 }
 
+/* Add to your existing style.css */
+#education {
+  padding: 60px 0;
+  background: #f9fbfd; /* Or use your var(--light) if preferred */
+  width: 100%;
+}
+
+.education-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Keep your existing education-text styles */
+.education-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.edu-p {
+  color: #2c3e50; /* Or your var(--black) */
+  line-height: 1.6;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.p1::first-letter {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* Add the new cards grid styles */
+.education-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.education-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 3px solid #ccb804; /* Or your var(--primary) */
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(45deg, #3498db, #9b59b6);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.institution {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.degree {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #3498db;
+  font-weight: 500;
+}
+
+.year {
+  display: inline-block;
+  padding: 2px 8px;
+  background: #e8f4fc;
+  color: #3498db;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+
+.description {
+  color: #2c2c2c;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+/* Merge with your existing responsive styles */
+@media (max-width: 1200px) {
+  .education-text {
+    padding: 15px 200px;
+  }
+}
+
+@media (max-width: 960px) {
+  .education-text {
+    padding: 15px 80px;
+  }
+  .education-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .education-text {
+    padding: 15px 40px;
+    font-size: 18px;
+  }
+  .p1::first-letter {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .education-text {
+    padding: 15px 30px;
+    font-size: 16px;
+  }
+}
 
 @media screen and (max-width: 1200px){
     .education-text{
