@@ -14,10 +14,10 @@
   "about-me": {
     "title": "About me",
     "description-a": "Hi!, I'm Mehadi Hasan a developer specialized in JavaScript, I have more than",
-    "description-b": "years of experience in building modern web applications and apps with React Native. I am currently",
+    "description-b": "years of experience in building modern web applications and apps with Full Stack Technology. I am currently",
     "description-c": "years old, I keep learning and improving every day because technology never stops.",
     "description-d": "I specialize more than anything in the MERN stack (Mongodb, Express, React, Node).",
-    "cv": "Download CV"
+    "cv": "Download Resume"
   },
   "skills": {
     "title": "My skills",

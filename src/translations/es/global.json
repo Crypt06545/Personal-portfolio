@@ -14,10 +14,10 @@
     "about-me": {
         "title": "Acerca de mi",
         "description-a": "Hola!, soy Mehadi Hasan, desarrollador especializado en javascript, cuento con mas de",
-        "description-b": "años de experiencia en la construcción de aplicaciones web modernas y apps con React Native. Actualmente tengo",
+        "description-b": "años de experiencia en la construcción de aplicaciones web modernas y apps con Tecnología FullStack. Actualmente tengo",
         "description-c": "años de edad, sigo aprendiendo y mejorando cada día ya que la tecnología nunca para.",
         "description-d": "Me especializo mas que nada en el stack MERN (Mongodb, Express, React, Node), pero también uso python y MySQL en mis proyectos.",
-        "cv": "Descargar CV"
+        "cv": "Descargar Resume"
     },
     "skills": {
         "title": "Habilidades",
